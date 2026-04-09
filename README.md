@@ -57,7 +57,7 @@ Unlike in the previous notebooks, there is no predefined structure here. You dec
 Each decision is worth a Markdown cell in your notebook. Briefly write down what you did and why.
 
 --
--
+
 
 ## Retrieval Augmented Generation (RAG) with LangChain
 
