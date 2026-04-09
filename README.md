@@ -1,5 +1,63 @@
+# RAG Chatbot – From Scratch
 
-[![Shipping files](https://github.com/neuefische/ds-rag-pipline/actions/workflows/workflow-02.yml/badge.svg?branch=main&event=workflow_dispatch)](https://github.com/neuefische/ds-rag-pipline/actions/workflows/workflow-02.yml)
+**Project Work | AI Modeling Bootcamp**
+
+---
+
+| | |
+|---|---|
+| **Timeframe** | 1 day (approx. 6–8 hours) |
+| **Work format** | Solo project |
+| **Output** | Jupyter Notebook |
+| **Prerequisite** | RAG Knowledge |
+
+---
+
+## Task Description
+
+You will build a complete RAG chatbot from the ground up – without a predefined function structure. You choose your own document, make your own technical decisions, and document your reasoning. 
+
+### Your Source Document
+
+Choose a PDF document that interests you. It should:
+
+- be at least 5–10 pages long
+- be meaningful for a question-answering system (e.g. a manual, a scientific article, a report)
+- be written in German or English
+
+Examples: user manual, Wikipedia article as PDF, research report, company FAQ, cookbook.
+
+---
+
+## What to Build
+
+Your chatbot must include the following core components:
+
+| # | Component | Description |
+|---|---|---|
+| 1 | **Data Ingestion** | Load the PDF and extract raw content |
+| 2 | **Chunking** | Split the document into meaningful text blocks |
+| 3 | **Embeddings** | Convert chunks into vectors and store them |
+| 4 | **Retrieval** | Retrieve relevant chunks for a given question |
+| 5 | **LLM Integration** | Generate an answer based on the retrieved chunks |
+| 6 | **Chat Function** | Simple interactive query loop |
+
+---
+
+## Your Technical Decisions
+
+Unlike in the previous notebooks, there is no predefined structure here. You decide:
+
+- What chunk size and overlap makes sense for your document?
+- Which embedding model do you choose, and why?
+- How many chunks do you retrieve per query (`k`)?
+- How do you formulate the prompt to the LLM?
+- How do you structure your code – functions, classes, or linear?
+
+Each decision is worth a Markdown cell in your notebook. Briefly write down what you did and why.
+
+--
+-
 
 ## Retrieval Augmented Generation (RAG) with LangChain
 
@@ -28,22 +86,6 @@ By completing this workshop, you will:
 - **Groq/Llama** - Free LLM inference
 - **Sample data** - Research papers included for practice (pharmaceutical documentation and AI research)
 
-### Workshop Structure
-
-Two parallel notebooks are provided:
-- **RAG-Pipeline-Llama.ipynb** - Complete walkthrough with detailed explanations and working code
-- **RAG_Exercise_Notebook.ipynb** - Hands-on exercises with empty functions for you to implement
-
-The workshop covers 7 exercises that guide you through the 5-step RAG pipeline shown below.
-
-### Prerequisites
-
-You will need a free Groq API key. Create a `.env` file in the project root with:
-```
-GROQ_API_KEY=<your groq api key>
-```
-
-- [Groq API Key](https://console.groq.com/playground) can be generated and used free of charge
 
 ## Environment
 
