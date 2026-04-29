@@ -2,16 +2,6 @@
 
 **Project Work | AI Modeling Bootcamp**
 
----
-
-| | |
-|---|---|
-| **Timeframe** | 1 day (approx. 6–8 hours) |
-| **Work format** | Solo project |
-| **Output** | Jupyter Notebook |
-| **Prerequisite** | RAG Knowledge |
-
----
 
 ## Task Description
 
